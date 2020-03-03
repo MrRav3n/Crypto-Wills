@@ -1,0 +1,137 @@
+/* Styles go here */
+body {
+	background-image: url("./rip.png");
+    font-family: 'Lato', sans-serif;
+}
+.inputs {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    border-radius: 20px;
+}
+.inputsWill {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    box-shadow: 7px 7px 18px 0px rgba(26,24,26,1);
+    border-radius: 20px;
+}
+.inputsWill:hover {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+    box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+}
+.inputsWill:focus {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+    box-shadow: 7px 7px 18px 0px rgba(39,97,5,1);
+}
+.inputs:hover {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+    box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+}
+.inputs:focus {
+    -webkit-box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+    -moz-box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+    box-shadow: 7px 7px 18px 0px rgba(184,80,0,1);
+}
+.button {
+
+}
+.addNew {
+    -webkit-box-shadow: 0px 0px 101px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 101px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 101px 0px rgba(255,255,255,1);
+}
+.my-4 {
+    border: 1px solid #5a5a5a;
+}
+.my-5 {
+    border: 1px solid #31da2c;
+}
+.willsReader {
+    -webkit-box-shadow: 16px 12px 33px 0px rgba(52,81,133,1);
+    -moz-box-shadow: 16px 12px 33px 0px rgba(52,81,133,1);
+    box-shadow: 16px 12px 33px 0px rgba(52,81,133,1);
+    border-radius: 20px;
+}
+.firstItem {
+    background: #46474b;
+}
+.secoundItem {
+    background: #46474b;
+}
+.aClass {
+    transition: all 0.4s;
+    text-decoration: none;
+    background: white;
+    border-radius: 20px;
+    color: #2a2a2a;
+    -webkit-box-shadow: 6px 5px 36px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 6px 5px 36px 0px rgba(255,255,255,1);
+    box-shadow: 6px 5px 36px 0px rgba(255,255,255,1);
+}
+.aClass:hover {
+    background: #2a2a2a;
+    color: white;
+    text-decoration: none;
+
+}
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: none;
+}
+.key {
+    background: #343434;
+    border-radius: 20px;
+}
+.btn-warning {
+    -webkit-box-shadow: 10px 10px 47px 0px rgba(196,180,0,1);
+    -moz-box-shadow: 10px 10px 47px 0px rgba(196,180,0,1);
+    box-shadow: 10px 10px 47px 0px rgba(196,180,0,1);
+}
+.btn-danger {
+    -webkit-box-shadow: 10px 13px 36px 0px rgba(189,0,13,1);
+    -moz-box-shadow: 10px 13px 36px 0px rgba(189,0,13,1);
+    box-shadow: 10px 13px 36px 0px rgba(189,0,13,1);
+}
+a:hover {
+    text-decoration: none;
+}
+.navCrypto {
+    transition: all 0.5s;
+}
+.navCrypto:hover {
+    color: #925f20;
+}
+.footer {
+    height: 7rem;
+    position: absolute;
+    bottom: 0;
+}
+.pageContainer {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 7rem;
+}
+.whoYouAre {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 172px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 172px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 172px 0px rgba(255,255,255,1);
+	border-radius: 20px;
+}
+.will {
+    color: #da5100;
+}
+.list-group-item {
+    font-size: 25px;
+}
+.custom-file-input {
+    height: 30px;
+}
+.spinner-grow {
+    font-size: 50px;
+}
