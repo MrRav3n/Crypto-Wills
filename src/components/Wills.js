@@ -58,10 +58,6 @@ class Wills extends React.Component{
                             alert("Dodaj skan testamentu");
                             return;
                         }
-
-
-                        console.log(hash);
-
                         this.props.createNewWill(
                             pesel,
                             name,
@@ -79,7 +75,8 @@ class Wills extends React.Component{
                             <input type="text" ref={(input) => this.date = input} className="form-control col-6 form-control-lg inputs mt-3"
                                    placeholder="Miejscowość i data"/>
                         </div>
-                        <textarea ref={(input) => this.content = input} className="form-control mt-5 form-control-lg inputsWill" rows="20 " placeholder="Treść testamentu "/>
+                        <textarea ref={(input) => this.content = input} className="form-control mt-5 form-control-lg inputsWill" rows="20 "
+                                  placeholder="Treść testamentu "/>
                         <div className="d-flex justify-content-center">
                             <button type="submit" className="btn btn-danger btn-lg col-6  mt-5 button">Dodaj nowy testament</button>
                         </div>
@@ -99,7 +96,6 @@ class Wills extends React.Component{
                             }
                             this.setState({loading: false})
                         })
-
                     }}>
                         <img className=" mb-5 rounded" src={this.props.img} />
                         <h1 className="display-4 addNew text-center whoYouAre">Istnieje również możliwość dodania kopii dokumentu do bazy danych.</h1>
@@ -113,7 +109,6 @@ class Wills extends React.Component{
                     </form>
                 </div>
             }
-
             </span>
         );
     }

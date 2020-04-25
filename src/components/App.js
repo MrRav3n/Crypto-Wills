@@ -96,7 +96,11 @@ class App extends Component {
             willSecoundPart = await this.state.contract.methods.showSecoundPartN(pesel).call({from: this.state.account});
         }
 
-        this.setState({will: [willFirstPart[0], willFirstPart[1],willFirstPart[2], willSecoundPart[0], willSecoundPart[1], willSecoundPart[2]]});
+        this.setState({will: [
+                willFirstPart[0], willFirstPart[1],
+                willFirstPart[2], willSecoundPart[0],
+                willSecoundPart[1], willSecoundPart[2]
+            ]});
     }
 
     async addNotary(address, name) {
