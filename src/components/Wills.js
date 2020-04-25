@@ -11,7 +11,7 @@ class Wills extends React.Component{
             result: [],
             loading: false
         }
-}
+    }
     captureFile = (e) => {
         e.preventDefault();
         const file = e.target.files[0]

@@ -46,8 +46,7 @@ class Notary extends React.Component{
                     </div>
                 </form>
             </span>
-    </span>
-
+        </span>
         );
     }
 }
